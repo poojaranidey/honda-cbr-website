@@ -10,6 +10,18 @@
     transition: 1s;
     filter:grayscale(0%);
 }
+.card-body{
+    padding: 0;
+}
+.bike-news-image{
+    
+    height: 550px;
+    padding: 10px;
+}
+.bike-news-image img{
+    height: 300px;
+    padding: 10px;
+}
 .clients img{
     width: 149px;
     margin: auto;
@@ -49,7 +61,4 @@
     .fa-github{
     background-color: #000;
     }
-/* .bike-news{
-    
-    height: 313px;
-} */
+
