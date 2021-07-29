@@ -1,3 +1,15 @@
+/* common utilities */
+h1,h2,h3 {
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    background-color: #E76F51;
+    border: 0;
+}
+.text-style{
+    color:#E76F51 ;
+}
+/* grayscale  style  */
 .fetured-bike img{
     width:100%;
     padding: 5%;
@@ -10,11 +22,11 @@
     transition: 1s;
     filter:grayscale(0%);
 }
+/* bike-news-style  */
 .card-body{
     padding: 0;
 }
-.bike-news-image{
-    
+.bike-news-image{ 
     height: 550px;
     padding: 10px;
 }
@@ -22,43 +34,55 @@
     height: 300px;
     padding: 10px;
 }
+/* clients-review-style  */
 .clients img{
     width: 149px;
     margin: auto;
     margin-top: 40px;
 }
-
 .fa-star{
     font-size: 12px;
 }
 .fa-star.filled{
-   color:  #FFC014;
+   color:  #E77C40;
 }
 .fa-star.empty{
     color:#AEAEAE;
 }
- .address-icon i{
+
+/* social  media icon style  */
+.address-icon i{
     font-size: 36px;
     line-height: 32px;
-    }
-    .icons i{
+}
+.icons i{
     color: #fff;
     padding: 8px 0px;
     text-align: center;
     height: 30px;
     width: 30px;
     margin-right: 5px;
-    }
-    .fa-facebook{
-    background-color: #3A5A99;
-    }
-    .fa-twitter{
-    background-color: #39CBFA;
-    }
-    .fa-linkedin{
-    background-color: #3D99C0;
-    }
-    .fa-github{
-    background-color: #000;
-    }
+}
 
+.fa-facebook{
+    background-color: #3A5A99;
+}
+.fa-twitter{
+    background-color: #39CBFA;
+}
+.fa-linkedin{
+    background-color: #3D99C0;
+}
+.fa-github{
+    background-color: #000;
+}
+/* footer style  */
+footer{
+    background-color: black;
+}
+footer a, footer p {
+    color: #ddd;
+    font-size: 16px;
+    margin-right: 10px;
+    text-decoration: none ;
+}
